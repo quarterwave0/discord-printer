@@ -1,5 +1,5 @@
 # Have you ever wanted physical reciepts of your discord channel?
-# Well, I did.
+Well, I did.
 
 ##  Setup instructions if you wanted that for some reason:
 1. Make a discord bot and get the token.
