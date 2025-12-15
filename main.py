@@ -25,8 +25,8 @@ user_ratelimit_progress = {}
 
 def checkValid(message: discord.Message):
 	if(message.channel.id in invertedChannels and
-		message.content is not None or
-		message.attachments is not []):
+		(message.content is not None or
+		message.attachments is not [])):
 			return True
 
 	if(message.channel.id not in normalChannels or #is it in an active channel
